@@ -1,0 +1,28 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Blog</title>
+
+	<style type="text/css">
+	#content a{
+		color: orange;
+	}
+	</style>
+</head>
+	
+<body>
+<div id="sidebar">
+	<div class="buttonhome" onclick="home();">Home</div>
+	<div class="buttonblog" onclick="blog();">Blog</div>
+	<div class="buttonlink" onclick="link();">Link</div>
+</div>
+<div id="content">
+<h1><center>Blog</center></h1>
+</div>
+<script>
+function home(){location.href="./index.php";}
+function blog(){location.href="./blog.html";}
+function link(){location.href="./link.html";}
+</script>
+</body>
+</html>
